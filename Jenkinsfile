@@ -62,7 +62,7 @@ dockerTemplate{
         pushPomPropertyChangePR {
           propertyName = 'sonarqube.version'
           projects = ['fabric8io/fabric8-devops']
-          version = newVersion
+          version = v
           containerName = 'clients'
         }
       }
